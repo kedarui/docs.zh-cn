@@ -84,7 +84,7 @@ static IEnumerable<string> Ranks()
 }
 ```
 
-将它们置于 `Main` 文件的 `Program.cs` 方法的下面。 这两种方法都利用 `yield return` 语法在运行时生成序列。 编译器会生成对象来实现 <xref:System.Collections.Generic.IEnumerable%601>，并在有请求时生成字符串序列。
+将它们置于 `Program.cs` 文件的 `Main` 方法的下面。 这两种方法都利用 `yield return` 语法在运行时生成序列。 编译器会生成对象来实现 <xref:System.Collections.Generic.IEnumerable%601>，并在有请求时生成字符串序列。
 
 现在使用这些迭代器创建一副扑克牌。 将 LINQ 查询置于 `Main` 方法中。 具体如下所示：
 
